@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f45;
+    color: #fff;
+}
+.navi ul{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.dashboard {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    background-color: rgb(233, 179, 183);
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dashboard h2 {
+    color: blueviolet;
+    padding: 10px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    padding: 10px;
+}
+
+.link-items a {
+    text-decoration: none;
+    color: blueviolet;
+}

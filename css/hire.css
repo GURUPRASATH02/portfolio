@@ -1,0 +1,75 @@
+/* css/hire.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #11cb2a, #2575fc);
+    color: #e68181;
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #28f8e7;
+}
+
+form {
+    background-color: #050449;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(229, 233, 11, 0.911);
+    width: 50%;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea,
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e68181;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: green;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+}

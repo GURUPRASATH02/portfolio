@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #dd1b1b, #2575fc);
+    margin: 0;
+    padding: 20px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Add box-sizing to ensure padding and border are included in the element's total width and height */
+}
+
+/* Navigation Bar */
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.navi ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navi ul li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+/* Dashboard */
+.dashboard {
+    width: 80%;
+    max-width: 300px;
+    height: 50vh;
+    background-color:transparent;
+    border: #02022c 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dashboard h2 {
+    color: white;
+    padding: 10px;
+}
+.dashboard ul li a{
+    color: #410505;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    padding: 10px;
+}
+
+.link-items a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+h2 {
+    color: dodgerblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -250px;
+    margin-left: 400px;
+}
+
+table, th, td {
+    border: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #14d13d;
+    color: #333;
+}
+tr:nth-child(odd) {
+    background-color: #02022c;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #0d0d0e;
+    color: white;
+}

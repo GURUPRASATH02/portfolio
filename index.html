@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/Capture.PNG" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Guruprasath</h1>
+        <nav>
+            <ul>
+                <li><a href="view_projects.php">Projects</a></li>
+                <li><a href="view_Certifications.php">Certifications</a></li>
+                <li><a href="view_blog.php">Blog</a></li>
+            </ul>
+            <div class="navbar-menu-toggle" onclick="showNavbar()">
+                <p><i class="fa-solid fa-bars"></i></p>
+            </div>
+        </nav>
+    </header>
+    <div class="side-navbar" onclick="closeNavbar()">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <ul>
+                <li><a href="About.html">About</a></li>
+                <li><a href="view_certificates.php">Certification</a></li>
+                <li><a href="view_projects.php">Projects</a></li>
+                <li><a href="View_Blog.php">Blog</a></li>
+                <li><a href="contact.php">contact me</a></li>
+                <li><a href="interview.php">Call interview</a></li>
+                <li><a href="../Portfolio/GURUPRASATH N Resume.pdf">Download CV/Resume</a></li>
+                <li><a href="hire.php">Hire me</a></li>
+                <li><a href="login.php">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <section>
+        <div class="links">
+            <h2>Additional Informations</h2>
+            <hr>
+            <ul>
+                <li><a href="About.html">About me</a></li>
+                <li><a href="contact.php">contact me</a></li>
+                <li><a href="../Portfolio/GURUPRASATH N Resume.pdf">Download CV</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="hire.php">Hire me</a></li>
+            </ul>
+        </div>
+    </section>
+    <aside>
+        <img src="img/guru.jpg">
+        <div class="intro">
+            <h1>Guruprasath</h1>
+            <h4><mark>Aspiring Software Engineer: Eager to Innovate and Create</mark></h4>
+            <p>Currently pursing Master of Computer Science</p>
+            <input type="button" value="More About Me" onclick="location.href='About.html'">
+        </div>
+    </aside>
+    <footer>
+        <div class="media">
+            <h2>Media</h2>
+            <ul>
+                <li><a href="https://github.com/GURUPRASATH02"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/guru-prasath-5a40b323a/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><i class="fa-solid fa-phone"></i>+91 99658 41143</li>
+                <li><i class="fa-solid fa-square-envelope"></i> guruprasath2902@gmail.com</li>
+            </ul>
+            <p>&copy;all copyrights reserved @Guruprasath 2024.</p>
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Add box-sizing to ensure padding and border are included in the element's total width and height */
+}
+
+/* Navigation Bar */
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f45;
+    color: #fff;
+}
+
+.navi ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navi ul li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+/* Dashboard */
+.dashboard {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    background-color: rgb(233, 179, 183);
+    
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dashboard h2 {
+    color: blueviolet;
+    padding: 10px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    padding: 10px;
+}
+
+.link-items a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* Form */
+form {
+    max-width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    
+    justify-content: center;
+    margin-left: 32%; /* Center form and set margin */
+}
+
+form label, form input[type="text"], form input[type="password"], form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+form input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Messages */
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success {
+    color: #2ecc71;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Large screens (desktops, 992px and above) */
+@media (min-width: 992px) {
+    .navi {
+        padding: 20px 40px;
+    }
+
+    .logo img {
+        max-width: 600px;
+    }
+
+    .dashboard {
+        max-width: 400px;
+        padding: 30px;
+    }
+
+    form {
+        max-width: 500px;
+    }
+}
+
+/* Medium screens (tablets, between 768px and 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navi {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .navi ul {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        max-width: 500px;
+    }
+
+    .dashboard {
+        max-width: 350px;
+    }
+
+    form {
+        max-width: 400px;
+        margin-left: 24%;
+    }
+}
+
+/* Small screens (mobile devices, below 768px) */
+@media (max-width: 767px) {
+    .navi {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navi ul {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navi ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        max-width: 80%;
+    }
+
+    .logo #text1, #text2 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .dashboard {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    form {
+        width: 90%;
+        margin-left: 10%;
+    }
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myself {
+    padding: 20px;
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+    flex-wrap: wrap;
+}
+
+.myself .my-img {
+    padding: 10px;
+    width: fit-content;
+}
+
+.my-img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+}
+
+.Name {
+    flex: 1;
+    min-width: 250px;
+}
+
+.Name h1 {
+    font-size: 50px;
+    text-align: justify;
+    padding-top: 20px;
+    color: rgb(14, 140, 179);
+}
+
+.Name .Education {
+    margin-top: 40px;
+}
+
+.Education h2 {
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.Education ul li {
+    list-style: none;
+    padding: 20px;
+    text-align: justify;
+}
+
+.summery {
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.summery .heading {
+    padding: 20px;
+    text-align: justify;
+}
+
+.heading h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
+.heading p {
+    padding: 10px 10px;
+}
+
+.summery-content p {
+    font-size: 20px;
+}
+
+.cards {
+    width: 98%;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards .cards-items {
+    width: 100%;
+    max-width: 400px;
+    background-color: dodgerblue;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* Set a fixed height for all cards */
+}
+
+.cards-img img {
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.cards-details {
+    padding: 10px;
+    text-align: justify;
+    flex: 1; /* Make the details section take up remaining space */
+}
+
+.cards-details p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cards-details a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .myself {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Name {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .summery {
+        margin-left: 0;
+        width: 95%;
+        text-align: center;
+    }
+
+    .cards .cards-items {
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Name h1 {
+        font-size: 30px;
+    }
+
+    .Education h2, .summery .heading h2 {
+        font-size: 20px;
+    }
+
+    .summery-content p {
+        font-size: 16px;
+    }
+
+    .cards-details p {
+        font-size: 16px;
+    }
+}
